@@ -9,11 +9,11 @@ on:
       GSI:
         description: 'direct link for Gsi image '
         required: true
-        default: 'https://sourceforge.net/projects/andyyan-gsi/files/lineage-19.x/lineage-19.1-20230715-UNOFFICIAL-a64_bgN.img.xz'        
+        default: 'https://github.com/phhusson/treble_experimentations/releases/download/v313/system-roar-arm64-aonly-gapps.img.xz'        
       ARCH:
         description: 'ARM64 or ARM32?'
         required: true
-        default: '32'                
+        default: '64'                
       NAME:
         description: 'Rom Name'
         required: true
